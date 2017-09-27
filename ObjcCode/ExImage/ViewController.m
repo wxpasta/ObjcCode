@@ -23,15 +23,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self roadWebP];
 }
 
 - (void)roadWebP{
-    NSURL *webUrl = [[NSBundle mainBundle] URLForResource:@"" withExtension:@""];
+    NSURL *webUrl = [[NSBundle mainBundle] URLForResource:@"GarfieldWebp" withExtension:@"webp"];
     NSData *data = [NSData dataWithContentsOfURL:webUrl];
-    self.decoder = [YYImageDecoder decoderWithData:data scale:1.0];
+    _decoder = [YYImageDecoder decoderWithData:data scale:1.0];
     self.i = 0;
-    UIImage *image = [_decoder frameAtIndex:self.i decodeForDisplay:YES].image;
-    UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    UIImage *imageWebp = [_decoder frameAtIndex:self.i decodeForDisplay:YES].image;
+    UIImageWriteToSavedPhotosAlbum(imageWebp, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
     
 }
@@ -42,15 +43,11 @@
     }else{
         NSLog(@"success");
         self.i++;
-        UIImage *image = [_decoder frameAtIndex:self.i decodeForDisplay:YES].image;
-        if (image != nil) {
-            UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+        UIImage *imageWebp = [_decoder frameAtIndex:self.i decodeForDisplay:YES].image;
+        if (imageWebp != nil) {
+            UIImageWriteToSavedPhotosAlbum(imageWebp, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
         }
     }
-    
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

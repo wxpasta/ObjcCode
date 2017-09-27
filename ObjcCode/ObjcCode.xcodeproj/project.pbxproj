@@ -27,6 +27,18 @@
 		91E3A9691F7B40590034E399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9681F7B40590034E399 /* Assets.xcassets */; };
 		91E3A96C1F7B40590034E399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A96A1F7B40590034E399 /* LaunchScreen.storyboard */; };
 		91E3A96F1F7B405A0034E399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A96E1F7B405A0034E399 /* main.m */; };
+		91E3A9921F7BD7F10034E399 /* GarfieldWebp.webp in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */; };
+		91E3A9D61F7BD9460034E399 /* YYImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9CC1F7BD9350034E399 /* YYImage.h */; };
+		91E3A9D71F7BD9460034E399 /* YYImageCoder.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9CD1F7BD9350034E399 /* YYImageCoder.h */; };
+		91E3A9D81F7BD9460034E399 /* YYFrameImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9CE1F7BD9350034E399 /* YYFrameImage.h */; };
+		91E3A9D91F7BD9460034E399 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9CF1F7BD9350034E399 /* YYSpriteSheetImage.m */; };
+		91E3A9DA1F7BD9460034E399 /* YYAnimatedImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D01F7BD9350034E399 /* YYAnimatedImageView.h */; };
+		91E3A9DB1F7BD9460034E399 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D11F7BD9350034E399 /* YYImage.m */; };
+		91E3A9DC1F7BD9460034E399 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D21F7BD9350034E399 /* YYImageCoder.m */; };
+		91E3A9DD1F7BD9460034E399 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D31F7BD9350034E399 /* YYFrameImage.m */; };
+		91E3A9DE1F7BD9460034E399 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D41F7BD9350034E399 /* YYAnimatedImageView.m */; };
+		91E3A9DF1F7BD9460034E399 /* YYSpriteSheetImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D51F7BD9350034E399 /* YYSpriteSheetImage.h */; };
+		91E3A9E41F7BDA850034E399 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E3A9E11F7BDA630034E399 /* WebP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,16 +76,19 @@
 		91E3A96B1F7B40590034E399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E3A96D1F7B405A0034E399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91E3A96E1F7B405A0034E399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91E3A97B1F7B42030034E399 /* YYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
-		91E3A97C1F7B42030034E399 /* YYImageCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
-		91E3A97D1F7B42030034E399 /* YYFrameImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
-		91E3A97E1F7B42030034E399 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		91E3A97F1F7B42030034E399 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
-		91E3A9801F7B42030034E399 /* YYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
-		91E3A9811F7B42030034E399 /* YYImageCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
-		91E3A9821F7B42030034E399 /* YYFrameImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
-		91E3A9831F7B42030034E399 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
-		91E3A9841F7B42030034E399 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = GarfieldWebp.webp; sourceTree = "<group>"; };
+		91E3A9CC1F7BD9350034E399 /* YYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		91E3A9CD1F7BD9350034E399 /* YYImageCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		91E3A9CE1F7BD9350034E399 /* YYFrameImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		91E3A9CF1F7BD9350034E399 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		91E3A9D01F7BD9350034E399 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		91E3A9D11F7BD9350034E399 /* YYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		91E3A9D21F7BD9350034E399 /* YYImageCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		91E3A9D31F7BD9350034E399 /* YYFrameImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		91E3A9D41F7BD9350034E399 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		91E3A9D51F7BD9350034E399 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		91E3A9E11F7BDA630034E399 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		91E3A9E21F7BDA630034E399 /* WebP.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = WebP.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E3A9E41F7BDA850034E399 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +124,7 @@
 				7F13C4901F5827AC002F2ADA /* CommentDemo */,
 				91E3A95E1F7B40590034E399 /* ExImage */,
 				7F13C4721F582798002F2ADA /* Products */,
+				91E3A9E31F7BDA850034E399 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,7 +193,6 @@
 		91E3A95E1F7B40590034E399 /* ExImage */ = {
 			isa = PBXGroup;
 			children = (
-				91E3A9791F7B41F70034E399 /* Lib */,
 				91E3A9781F7B40D90034E399 /* ExImage */,
 				91E3A95F1F7B40590034E399 /* AppDelegate.h */,
 				91E3A9601F7B40590034E399 /* AppDelegate.m */,
@@ -194,33 +210,44 @@
 		91E3A9781F7B40D90034E399 /* ExImage */ = {
 			isa = PBXGroup;
 			children = (
+				91E3A9E01F7BDA630034E399 /* Vendor */,
+				91E3A9CB1F7BD9350034E399 /* YYImage */,
+				91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */,
 			);
 			path = ExImage;
 			sourceTree = "<group>";
 		};
-		91E3A9791F7B41F70034E399 /* Lib */ = {
+		91E3A9CB1F7BD9350034E399 /* YYImage */ = {
 			isa = PBXGroup;
 			children = (
-				91E3A97A1F7B42030034E399 /* YYImage */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		91E3A97A1F7B42030034E399 /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				91E3A97B1F7B42030034E399 /* YYImage.h */,
-				91E3A97C1F7B42030034E399 /* YYImageCoder.h */,
-				91E3A97D1F7B42030034E399 /* YYFrameImage.h */,
-				91E3A97E1F7B42030034E399 /* YYSpriteSheetImage.m */,
-				91E3A97F1F7B42030034E399 /* YYAnimatedImageView.h */,
-				91E3A9801F7B42030034E399 /* YYImage.m */,
-				91E3A9811F7B42030034E399 /* YYImageCoder.m */,
-				91E3A9821F7B42030034E399 /* YYFrameImage.m */,
-				91E3A9831F7B42030034E399 /* YYAnimatedImageView.m */,
-				91E3A9841F7B42030034E399 /* YYSpriteSheetImage.h */,
+				91E3A9CC1F7BD9350034E399 /* YYImage.h */,
+				91E3A9CD1F7BD9350034E399 /* YYImageCoder.h */,
+				91E3A9CE1F7BD9350034E399 /* YYFrameImage.h */,
+				91E3A9CF1F7BD9350034E399 /* YYSpriteSheetImage.m */,
+				91E3A9D01F7BD9350034E399 /* YYAnimatedImageView.h */,
+				91E3A9D11F7BD9350034E399 /* YYImage.m */,
+				91E3A9D21F7BD9350034E399 /* YYImageCoder.m */,
+				91E3A9D31F7BD9350034E399 /* YYFrameImage.m */,
+				91E3A9D41F7BD9350034E399 /* YYAnimatedImageView.m */,
+				91E3A9D51F7BD9350034E399 /* YYSpriteSheetImage.h */,
 			);
 			path = YYImage;
+			sourceTree = "<group>";
+		};
+		91E3A9E01F7BDA630034E399 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				91E3A9E11F7BDA630034E399 /* WebP.framework */,
+				91E3A9E21F7BDA630034E399 /* WebP.sh */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		91E3A9E31F7BDA850034E399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E3A9921F7BD7F10034E399 /* GarfieldWebp.webp in Resources */,
 				91E3A96C1F7B40590034E399 /* LaunchScreen.storyboard in Resources */,
 				91E3A9691F7B40590034E399 /* Assets.xcassets in Resources */,
 				91E3A9671F7B40590034E399 /* Main.storyboard in Resources */,
@@ -380,6 +408,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E3A9D61F7BD9460034E399 /* YYImage.h in Sources */,
+				91E3A9D71F7BD9460034E399 /* YYImageCoder.h in Sources */,
+				91E3A9D81F7BD9460034E399 /* YYFrameImage.h in Sources */,
+				91E3A9D91F7BD9460034E399 /* YYSpriteSheetImage.m in Sources */,
+				91E3A9DA1F7BD9460034E399 /* YYAnimatedImageView.h in Sources */,
+				91E3A9DB1F7BD9460034E399 /* YYImage.m in Sources */,
+				91E3A9DC1F7BD9460034E399 /* YYImageCoder.m in Sources */,
+				91E3A9DD1F7BD9460034E399 /* YYFrameImage.m in Sources */,
+				91E3A9DE1F7BD9460034E399 /* YYAnimatedImageView.m in Sources */,
+				91E3A9DF1F7BD9460034E399 /* YYSpriteSheetImage.h in Sources */,
 				91E3A9641F7B40590034E399 /* ViewController.m in Sources */,
 				91E3A96F1F7B405A0034E399 /* main.m in Sources */,
 				91E3A9611F7B40590034E399 /* AppDelegate.m in Sources */,
@@ -596,6 +634,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExImage/ExImage/Vendor",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -614,6 +656,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExImage/ExImage/Vendor",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
