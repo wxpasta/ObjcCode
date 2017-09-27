@@ -24,7 +24,6 @@
 		91E3A9611F7B40590034E399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9601F7B40590034E399 /* AppDelegate.m */; };
 		91E3A9641F7B40590034E399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9631F7B40590034E399 /* ViewController.m */; };
 		91E3A9671F7B40590034E399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9651F7B40590034E399 /* Main.storyboard */; };
-		91E3A9691F7B40590034E399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9681F7B40590034E399 /* Assets.xcassets */; };
 		91E3A96C1F7B40590034E399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A96A1F7B40590034E399 /* LaunchScreen.storyboard */; };
 		91E3A96F1F7B405A0034E399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A96E1F7B405A0034E399 /* main.m */; };
 		91E3A9921F7BD7F10034E399 /* GarfieldWebp.webp in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */; };
@@ -39,6 +38,16 @@
 		91E3A9DE1F7BD9460034E399 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D41F7BD9350034E399 /* YYAnimatedImageView.m */; };
 		91E3A9DF1F7BD9460034E399 /* YYSpriteSheetImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9D51F7BD9350034E399 /* YYSpriteSheetImage.h */; };
 		91E3A9E41F7BDA850034E399 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E3A9E11F7BDA630034E399 /* WebP.framework */; };
+		91E3A9E71F7BE47C0034E399 /* Garfield.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9E61F7BE47C0034E399 /* Garfield.gif */; };
+		91E3A9F51F7BEF850034E399 /* Garfield09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9EB1F7BE6A90034E399 /* Garfield09.jpg */; };
+		91E3A9F61F7BEF850034E399 /* Garfield08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9EC1F7BE6A90034E399 /* Garfield08.jpg */; };
+		91E3A9F71F7BEF850034E399 /* Garfield05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9ED1F7BE6A90034E399 /* Garfield05.jpg */; };
+		91E3A9F81F7BEF850034E399 /* Garfield04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9EE1F7BE6A90034E399 /* Garfield04.jpg */; };
+		91E3A9F91F7BEF850034E399 /* Garfield06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9EF1F7BE6A90034E399 /* Garfield06.jpg */; };
+		91E3A9FA1F7BEF850034E399 /* Garfield07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9F01F7BE6A90034E399 /* Garfield07.jpg */; };
+		91E3A9FB1F7BEF850034E399 /* Garfield03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9F11F7BE6A90034E399 /* Garfield03.jpg */; };
+		91E3A9FC1F7BEF850034E399 /* Garfield02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9F21F7BE6A90034E399 /* Garfield02.jpg */; };
+		91E3A9FD1F7BEF850034E399 /* Garfield01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9F31F7BE6A90034E399 /* Garfield01.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +81,6 @@
 		91E3A9621F7B40590034E399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		91E3A9631F7B40590034E399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91E3A9661F7B40590034E399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91E3A9681F7B40590034E399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E3A96B1F7B40590034E399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E3A96D1F7B405A0034E399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91E3A96E1F7B405A0034E399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +97,17 @@
 		91E3A9D51F7BD9350034E399 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		91E3A9E11F7BDA630034E399 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		91E3A9E21F7BDA630034E399 /* WebP.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = WebP.sh; sourceTree = "<group>"; };
+		91E3A9E61F7BE47C0034E399 /* Garfield.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Garfield.gif; sourceTree = "<group>"; };
+		91E3A9EB1F7BE6A90034E399 /* Garfield09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield09.jpg; sourceTree = "<group>"; };
+		91E3A9EC1F7BE6A90034E399 /* Garfield08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield08.jpg; sourceTree = "<group>"; };
+		91E3A9ED1F7BE6A90034E399 /* Garfield05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield05.jpg; sourceTree = "<group>"; };
+		91E3A9EE1F7BE6A90034E399 /* Garfield04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield04.jpg; sourceTree = "<group>"; };
+		91E3A9EF1F7BE6A90034E399 /* Garfield06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield06.jpg; sourceTree = "<group>"; };
+		91E3A9F01F7BE6A90034E399 /* Garfield07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield07.jpg; sourceTree = "<group>"; };
+		91E3A9F11F7BE6A90034E399 /* Garfield03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield03.jpg; sourceTree = "<group>"; };
+		91E3A9F21F7BE6A90034E399 /* Garfield02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield02.jpg; sourceTree = "<group>"; };
+		91E3A9F31F7BE6A90034E399 /* Garfield01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Garfield01.jpg; sourceTree = "<group>"; };
+		91E3A9F41F7BE6BE0034E399 /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +218,6 @@
 				91E3A9621F7B40590034E399 /* ViewController.h */,
 				91E3A9631F7B40590034E399 /* ViewController.m */,
 				91E3A9651F7B40590034E399 /* Main.storyboard */,
-				91E3A9681F7B40590034E399 /* Assets.xcassets */,
 				91E3A96A1F7B40590034E399 /* LaunchScreen.storyboard */,
 				91E3A96D1F7B405A0034E399 /* Info.plist */,
 				91E3A96E1F7B405A0034E399 /* main.m */,
@@ -210,9 +228,12 @@
 		91E3A9781F7B40D90034E399 /* ExImage */ = {
 			isa = PBXGroup;
 			children = (
+				91E3A9EA1F7BE6A90034E399 /* jpg */,
+				91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */,
+				91E3A9E61F7BE47C0034E399 /* Garfield.gif */,
+				91E3A9F41F7BE6BE0034E399 /* timg.jpg */,
 				91E3A9E01F7BDA630034E399 /* Vendor */,
 				91E3A9CB1F7BD9350034E399 /* YYImage */,
-				91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */,
 			);
 			path = ExImage;
 			sourceTree = "<group>";
@@ -248,6 +269,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E3A9EA1F7BE6A90034E399 /* jpg */ = {
+			isa = PBXGroup;
+			children = (
+				91E3A9EB1F7BE6A90034E399 /* Garfield09.jpg */,
+				91E3A9EC1F7BE6A90034E399 /* Garfield08.jpg */,
+				91E3A9ED1F7BE6A90034E399 /* Garfield05.jpg */,
+				91E3A9EE1F7BE6A90034E399 /* Garfield04.jpg */,
+				91E3A9EF1F7BE6A90034E399 /* Garfield06.jpg */,
+				91E3A9F01F7BE6A90034E399 /* Garfield07.jpg */,
+				91E3A9F11F7BE6A90034E399 /* Garfield03.jpg */,
+				91E3A9F21F7BE6A90034E399 /* Garfield02.jpg */,
+				91E3A9F31F7BE6A90034E399 /* Garfield01.jpg */,
+			);
+			path = jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,9 +409,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E3A9F51F7BEF850034E399 /* Garfield09.jpg in Resources */,
+				91E3A9F61F7BEF850034E399 /* Garfield08.jpg in Resources */,
+				91E3A9F71F7BEF850034E399 /* Garfield05.jpg in Resources */,
+				91E3A9F81F7BEF850034E399 /* Garfield04.jpg in Resources */,
+				91E3A9F91F7BEF850034E399 /* Garfield06.jpg in Resources */,
+				91E3A9FA1F7BEF850034E399 /* Garfield07.jpg in Resources */,
+				91E3A9FB1F7BEF850034E399 /* Garfield03.jpg in Resources */,
+				91E3A9FC1F7BEF850034E399 /* Garfield02.jpg in Resources */,
+				91E3A9FD1F7BEF850034E399 /* Garfield01.jpg in Resources */,
 				91E3A9921F7BD7F10034E399 /* GarfieldWebp.webp in Resources */,
 				91E3A96C1F7B40590034E399 /* LaunchScreen.storyboard in Resources */,
-				91E3A9691F7B40590034E399 /* Assets.xcassets in Resources */,
+				91E3A9E71F7BE47C0034E399 /* Garfield.gif in Resources */,
 				91E3A9671F7B40590034E399 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
