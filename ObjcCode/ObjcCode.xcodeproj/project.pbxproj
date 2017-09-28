@@ -21,6 +21,12 @@
 		7F13C4A11F5827AC002F2ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F13C49F1F5827AC002F2ADA /* LaunchScreen.storyboard */; };
 		7F13C4AA1F5827E3002F2ADA /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C4A71F5827E3002F2ADA /* BulletManager.m */; };
 		7F13C4AB1F5827E3002F2ADA /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C4A91F5827E3002F2ADA /* BulletView.m */; };
+		910E461D1F7C6B0D004F5551 /* UIView+imageScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E461C1F7C6B0D004F5551 /* UIView+imageScreenShot.m */; };
+		910E46231F7C6E30004F5551 /* UIImage+imageRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E46221F7C6E30004F5551 /* UIImage+imageRotate.m */; };
+		910E46261F7C730C004F5551 /* UIImage+imageScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E46251F7C730C004F5551 /* UIImage+imageScale.m */; };
+		910E46291F7C7484004F5551 /* UIImage+imageCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E46281F7C7484004F5551 /* UIImage+imageCut.m */; };
+		910E462C1F7C7696004F5551 /* UIImage+imageCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E462B1F7C7696004F5551 /* UIImage+imageCircle.m */; };
+		910E462F1F7C7A38004F5551 /* UIImage+imageWaterPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E462E1F7C7A38004F5551 /* UIImage+imageWaterPrint.m */; };
 		91E3A9611F7B40590034E399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9601F7B40590034E399 /* AppDelegate.m */; };
 		91E3A9641F7B40590034E399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E3A9631F7B40590034E399 /* ViewController.m */; };
 		91E3A9671F7B40590034E399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9651F7B40590034E399 /* Main.storyboard */; };
@@ -75,6 +81,18 @@
 		7F13C4A71F5827E3002F2ADA /* BulletManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
 		7F13C4A81F5827E3002F2ADA /* BulletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
 		7F13C4A91F5827E3002F2ADA /* BulletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		910E461B1F7C6B0D004F5551 /* UIView+imageScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+imageScreenShot.h"; sourceTree = "<group>"; };
+		910E461C1F7C6B0D004F5551 /* UIView+imageScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+imageScreenShot.m"; sourceTree = "<group>"; };
+		910E46211F7C6E30004F5551 /* UIImage+imageRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageRotate.h"; sourceTree = "<group>"; };
+		910E46221F7C6E30004F5551 /* UIImage+imageRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageRotate.m"; sourceTree = "<group>"; };
+		910E46241F7C730C004F5551 /* UIImage+imageScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageScale.h"; sourceTree = "<group>"; };
+		910E46251F7C730C004F5551 /* UIImage+imageScale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageScale.m"; sourceTree = "<group>"; };
+		910E46271F7C7484004F5551 /* UIImage+imageCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageCut.h"; sourceTree = "<group>"; };
+		910E46281F7C7484004F5551 /* UIImage+imageCut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageCut.m"; sourceTree = "<group>"; };
+		910E462A1F7C7696004F5551 /* UIImage+imageCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageCircle.h"; sourceTree = "<group>"; };
+		910E462B1F7C7696004F5551 /* UIImage+imageCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageCircle.m"; sourceTree = "<group>"; };
+		910E462D1F7C7A38004F5551 /* UIImage+imageWaterPrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageWaterPrint.h"; sourceTree = "<group>"; };
+		910E462E1F7C7A38004F5551 /* UIImage+imageWaterPrint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageWaterPrint.m"; sourceTree = "<group>"; };
 		91E3A95D1F7B40590034E399 /* ExImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E3A95F1F7B40590034E399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91E3A9601F7B40590034E399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -209,6 +227,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		910E461A1F7C6B0D004F5551 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				910E461B1F7C6B0D004F5551 /* UIView+imageScreenShot.h */,
+				910E461C1F7C6B0D004F5551 /* UIView+imageScreenShot.m */,
+				910E46211F7C6E30004F5551 /* UIImage+imageRotate.h */,
+				910E46221F7C6E30004F5551 /* UIImage+imageRotate.m */,
+				910E46241F7C730C004F5551 /* UIImage+imageScale.h */,
+				910E46251F7C730C004F5551 /* UIImage+imageScale.m */,
+				910E46271F7C7484004F5551 /* UIImage+imageCut.h */,
+				910E46281F7C7484004F5551 /* UIImage+imageCut.m */,
+				910E462A1F7C7696004F5551 /* UIImage+imageCircle.h */,
+				910E462B1F7C7696004F5551 /* UIImage+imageCircle.m */,
+				910E462D1F7C7A38004F5551 /* UIImage+imageWaterPrint.h */,
+				910E462E1F7C7A38004F5551 /* UIImage+imageWaterPrint.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
 		91E3A95E1F7B40590034E399 /* ExImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +265,7 @@
 		91E3A9781F7B40D90034E399 /* ExImage */ = {
 			isa = PBXGroup;
 			children = (
+				910E461A1F7C6B0D004F5551 /* Categorys */,
 				91E3A9EA1F7BE6A90034E399 /* jpg */,
 				91E3A9911F7BD7E60034E399 /* GarfieldWebp.webp */,
 				91E3A9E61F7BE47C0034E399 /* Garfield.gif */,
@@ -454,18 +492,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910E46231F7C6E30004F5551 /* UIImage+imageRotate.m in Sources */,
 				91E3A9D61F7BD9460034E399 /* YYImage.h in Sources */,
 				91E3A9D71F7BD9460034E399 /* YYImageCoder.h in Sources */,
 				91E3A9D81F7BD9460034E399 /* YYFrameImage.h in Sources */,
 				91E3A9D91F7BD9460034E399 /* YYSpriteSheetImage.m in Sources */,
 				91E3A9DA1F7BD9460034E399 /* YYAnimatedImageView.h in Sources */,
+				910E46261F7C730C004F5551 /* UIImage+imageScale.m in Sources */,
+				910E462C1F7C7696004F5551 /* UIImage+imageCircle.m in Sources */,
 				91E3A9DB1F7BD9460034E399 /* YYImage.m in Sources */,
 				91E3A9DC1F7BD9460034E399 /* YYImageCoder.m in Sources */,
 				91E3A9DD1F7BD9460034E399 /* YYFrameImage.m in Sources */,
 				91E3A9DE1F7BD9460034E399 /* YYAnimatedImageView.m in Sources */,
 				91E3A9DF1F7BD9460034E399 /* YYSpriteSheetImage.h in Sources */,
 				91E3A9641F7B40590034E399 /* ViewController.m in Sources */,
+				910E462F1F7C7A38004F5551 /* UIImage+imageWaterPrint.m in Sources */,
+				910E46291F7C7484004F5551 /* UIImage+imageCut.m in Sources */,
 				91E3A96F1F7B405A0034E399 /* main.m in Sources */,
+				910E461D1F7C6B0D004F5551 /* UIView+imageScreenShot.m in Sources */,
 				91E3A9611F7B40590034E399 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

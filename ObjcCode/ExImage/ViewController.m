@@ -14,6 +14,13 @@
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
+#import "UIView+imageScreenShot.h"
+#import "UIImage+imageRotate.h"
+#import "UIImage+imageScale.h"
+#import "UIImage+imageCut.h"
+#import "UIImage+imageCircle.h"
+#import "UIImage+imageWaterPrint.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) YYImageDecoder *decoder;
@@ -27,7 +34,43 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self animationJPG];
+
+    
+}
+
+- (void)imageTestWater{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *imageLogo = [UIImage imageNamed:@"Garfield01.jpg"];
+    UIImage *imageNew = [image imageWater:imageLogo waterString:@"巴糖"];
+    UIImageWriteToSavedPhotosAlbum(imageNew, self, nil, nil);
+}
+- (void)imageTestCircle{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *imageNew = [image imageClipCircle];
+    UIImageWriteToSavedPhotosAlbum(imageNew, self, nil, nil);
+}
+
+- (void)imageTestCut{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *imageNew = [image imageCutRect:CGRectMake(100, 100, 320, 200)];
+    UIImageWriteToSavedPhotosAlbum(imageNew, self, nil, nil);
+}
+
+- (void)imageTestScale{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *imageNew = [image imageScaleSize:CGSizeMake(200, 500)];
+    UIImageWriteToSavedPhotosAlbum(imageNew, self, nil, nil);
+}
+
+- (void)imageTestScreen{
+    UIImage *image = [self.view imageScreenShot];
+    UIImageWriteToSavedPhotosAlbum(image, self, nil, nil);
+}
+
+- (void)imageTestRotate{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *imageNew = [image imageRotateIndegree: M_PI / 180 * 45];
+    UIImageWriteToSavedPhotosAlbum(imageNew, self, nil, nil);
 }
 
 #pragma mark - 图片转化
