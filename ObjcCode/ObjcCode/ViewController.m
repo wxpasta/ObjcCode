@@ -14,6 +14,19 @@
 
 @implementation ViewController
 
+#pragma mark - life cycle
+
+#pragma mark - notification
+
+#pragma mark - action
+
+#pragma mark - UITableViewDelegate
+
+#pragma mark - UI
+
+#pragma mark - setter & getter
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +37,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 @end
