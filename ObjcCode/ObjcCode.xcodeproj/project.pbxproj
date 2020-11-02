@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57C69200254FE8DC0017B7CC /* UIImage+imagChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C691FF254FE8DC0017B7CC /* UIImage+imagChange.m */; };
 		57D8D31E254ACDC500A191A8 /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E3A9F41F7BE6BE0034E399 /* timg.jpg */; };
 		7F13C4761F582798002F2ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C4751F582798002F2ADA /* main.m */; };
 		7F13C4791F582798002F2ADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F13C4781F582798002F2ADA /* AppDelegate.m */; };
@@ -58,6 +59,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57C691FE254FE8DC0017B7CC /* UIImage+imagChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+imagChange.h"; sourceTree = "<group>"; };
+		57C691FF254FE8DC0017B7CC /* UIImage+imagChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imagChange.m"; sourceTree = "<group>"; };
 		7F13C4711F582798002F2ADA /* ObjcCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F13C4751F582798002F2ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F13C4771F582798002F2ADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 				910E462B1F7C7696004F5551 /* UIImage+imageCircle.m */,
 				910E462D1F7C7A38004F5551 /* UIImage+imageWaterPrint.h */,
 				910E462E1F7C7A38004F5551 /* UIImage+imageWaterPrint.m */,
+				57C691FE254FE8DC0017B7CC /* UIImage+imagChange.h */,
+				57C691FF254FE8DC0017B7CC /* UIImage+imagChange.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 				910E46231F7C6E30004F5551 /* UIImage+imageRotate.m in Sources */,
 				91E3A9D61F7BD9460034E399 /* YYImage.h in Sources */,
 				91E3A9D71F7BD9460034E399 /* YYImageCoder.h in Sources */,
+				57C69200254FE8DC0017B7CC /* UIImage+imagChange.m in Sources */,
 				91E3A9D81F7BD9460034E399 /* YYFrameImage.h in Sources */,
 				91E3A9D91F7BD9460034E399 /* YYSpriteSheetImage.m in Sources */,
 				91E3A9DA1F7BD9460034E399 /* YYAnimatedImageView.h in Sources */,

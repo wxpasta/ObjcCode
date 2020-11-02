@@ -21,6 +21,9 @@
 #import "UIImage+imageCircle.h"
 #import "UIImage+imageWaterPrint.h"
 
+
+#import "UIImage+imagChange.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) YYImageDecoder *decoder;
@@ -34,9 +37,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    [self imageTestCircle];
     
+}
+
+- (void)imageTest{
+    UIImage *image = [UIImage imageNamed:@"timg.jpg"];
+    UIImage *changeImage = [UIImage changeGrayImage:image];
+    UIImageWriteToSavedPhotosAlbum(changeImage, self, nil, nil);
 }
 
 - (void)imageTestWater{
