@@ -1,0 +1,6 @@
+framework module Pods_TrillDemo {
+  umbrella header "Pods-TrillDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

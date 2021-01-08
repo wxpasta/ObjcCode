@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429453AB75B5D4439C843069 /* Pods_TrillDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF51091212DB59F31196FF9F /* Pods_TrillDemo.framework */; };
+		5701C3CC2530149F00C80D28 /* TrillNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701C3CB2530149F00C80D28 /* TrillNetwork.swift */; };
+		578AB4DE25303A7400D34CF0 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB4DD25303A7400D34CF0 /* VideoCell.swift */; };
+		578AB4EA25304D5700D34CF0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB4E925304D5700D34CF0 /* Helper.swift */; };
+		578AB4ED2530511500D34CF0 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB4EC2530511500D34CF0 /* UIHelper.swift */; };
+		578AB4F2253062AB00D34CF0 /* ScaleAnimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AB4F1253062AB00D34CF0 /* ScaleAnimateButton.swift */; };
+		57BB1F0B25300A5B00D2567A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB1F0A25300A5B00D2567A /* AppDelegate.swift */; };
+		57BB1F0D25300A5B00D2567A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB1F0C25300A5B00D2567A /* SceneDelegate.swift */; };
+		57BB1F0F25300A5B00D2567A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB1F0E25300A5B00D2567A /* MainViewController.swift */; };
+		57BB1F1225300A5B00D2567A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB1F1025300A5B00D2567A /* Main.storyboard */; };
+		57BB1F1425300A5D00D2567A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BB1F1325300A5D00D2567A /* Assets.xcassets */; };
+		57BB1F1725300A5D00D2567A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB1F1525300A5D00D2567A /* LaunchScreen.storyboard */; };
+		57BB1F28253011C000D2567A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB1F27253011C000D2567A /* Feed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D5D3AD8214C0FF258A1F514 /* Pods-TrillDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrillDemo.release.xcconfig"; path = "Target Support Files/Pods-TrillDemo/Pods-TrillDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5701C3CB2530149F00C80D28 /* TrillNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrillNetwork.swift; sourceTree = "<group>"; };
+		578AB4DD25303A7400D34CF0 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		578AB4E925304D5700D34CF0 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		578AB4EC2530511500D34CF0 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		578AB4F1253062AB00D34CF0 /* ScaleAnimateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimateButton.swift; sourceTree = "<group>"; };
+		57BB1F0725300A5B00D2567A /* TrillDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrillDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BB1F0A25300A5B00D2567A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57BB1F0C25300A5B00D2567A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57BB1F0E25300A5B00D2567A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57BB1F1125300A5B00D2567A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57BB1F1325300A5D00D2567A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BB1F1625300A5D00D2567A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BB1F1825300A5D00D2567A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BB1F27253011C000D2567A /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		64E00506E5E21C1A461C4637 /* Pods-TikDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikDemo.release.xcconfig"; path = "Target Support Files/Pods-TikDemo/Pods-TikDemo.release.xcconfig"; sourceTree = "<group>"; };
+		862BFB32CF2B853E1D58605E /* Pods-TikDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikDemo.debug.xcconfig"; path = "Target Support Files/Pods-TikDemo/Pods-TikDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF51091212DB59F31196FF9F /* Pods_TrillDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07FC411874AF68ABADDFA8D /* Pods-TrillDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrillDemo.debug.xcconfig"; path = "Target Support Files/Pods-TrillDemo/Pods-TrillDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BB1F0425300A5B00D2567A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429453AB75B5D4439C843069 /* Pods_TrillDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578AB4EF2530626900D34CF0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				578AB4E925304D5700D34CF0 /* Helper.swift */,
+				578AB4EC2530511500D34CF0 /* UIHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		578AB4F02530627500D34CF0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				578AB4F1253062AB00D34CF0 /* ScaleAnimateButton.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		57BB1EFE25300A5B00D2567A = {
+			isa = PBXGroup;
+			children = (
+				57BB1F0925300A5B00D2567A /* TrillDemo */,
+				57BB1F0825300A5B00D2567A /* Products */,
+				73E935CA862E23B4DAC19A59 /* Pods */,
+				8376478723A5EC35A01098F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57BB1F0825300A5B00D2567A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BB1F0725300A5B00D2567A /* TrillDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BB1F0925300A5B00D2567A /* TrillDemo */ = {
+			isa = PBXGroup;
+			children = (
+				578AB4F02530627500D34CF0 /* Library */,
+				57BB1F0A25300A5B00D2567A /* AppDelegate.swift */,
+				57BB1F0C25300A5B00D2567A /* SceneDelegate.swift */,
+				57BB1F0E25300A5B00D2567A /* MainViewController.swift */,
+				57BB1F27253011C000D2567A /* Feed.swift */,
+				5701C3CB2530149F00C80D28 /* TrillNetwork.swift */,
+				57BB1F1025300A5B00D2567A /* Main.storyboard */,
+				578AB4DD25303A7400D34CF0 /* VideoCell.swift */,
+				578AB4EF2530626900D34CF0 /* Helper */,
+				57BB1F1325300A5D00D2567A /* Assets.xcassets */,
+				57BB1F1525300A5D00D2567A /* LaunchScreen.storyboard */,
+				57BB1F1825300A5D00D2567A /* Info.plist */,
+			);
+			path = TrillDemo;
+			sourceTree = "<group>";
+		};
+		73E935CA862E23B4DAC19A59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				862BFB32CF2B853E1D58605E /* Pods-TikDemo.debug.xcconfig */,
+				64E00506E5E21C1A461C4637 /* Pods-TikDemo.release.xcconfig */,
+				E07FC411874AF68ABADDFA8D /* Pods-TrillDemo.debug.xcconfig */,
+				1D5D3AD8214C0FF258A1F514 /* Pods-TrillDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8376478723A5EC35A01098F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF51091212DB59F31196FF9F /* Pods_TrillDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BB1F0625300A5B00D2567A /* TrillDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BB1F1B25300A5D00D2567A /* Build configuration list for PBXNativeTarget "TrillDemo" */;
+			buildPhases = (
+				C3F9DAA6FA86E41CC43C62E3 /* [CP] Check Pods Manifest.lock */,
+				57BB1F0325300A5B00D2567A /* Sources */,
+				57BB1F0425300A5B00D2567A /* Frameworks */,
+				57BB1F0525300A5B00D2567A /* Resources */,
+				7A0D901979757291E52D22A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrillDemo;
+			productName = TikDemo;
+			productReference = 57BB1F0725300A5B00D2567A /* TrillDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BB1EFF25300A5B00D2567A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					57BB1F0625300A5B00D2567A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 57BB1F0225300A5B00D2567A /* Build configuration list for PBXProject "TrillDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BB1EFE25300A5B00D2567A;
+			productRefGroup = 57BB1F0825300A5B00D2567A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BB1F0625300A5B00D2567A /* TrillDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BB1F0525300A5B00D2567A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB1F1725300A5D00D2567A /* LaunchScreen.storyboard in Resources */,
+				57BB1F1425300A5D00D2567A /* Assets.xcassets in Resources */,
+				57BB1F1225300A5B00D2567A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A0D901979757291E52D22A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrillDemo/Pods-TrillDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrillDemo/Pods-TrillDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrillDemo/Pods-TrillDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F9DAA6FA86E41CC43C62E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrillDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BB1F0325300A5B00D2567A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB1F0F25300A5B00D2567A /* MainViewController.swift in Sources */,
+				578AB4EA25304D5700D34CF0 /* Helper.swift in Sources */,
+				57BB1F28253011C000D2567A /* Feed.swift in Sources */,
+				57BB1F0B25300A5B00D2567A /* AppDelegate.swift in Sources */,
+				5701C3CC2530149F00C80D28 /* TrillNetwork.swift in Sources */,
+				57BB1F0D25300A5B00D2567A /* SceneDelegate.swift in Sources */,
+				578AB4DE25303A7400D34CF0 /* VideoCell.swift in Sources */,
+				578AB4F2253062AB00D34CF0 /* ScaleAnimateButton.swift in Sources */,
+				578AB4ED2530511500D34CF0 /* UIHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57BB1F1025300A5B00D2567A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB1F1125300A5B00D2567A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57BB1F1525300A5D00D2567A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB1F1625300A5D00D2567A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BB1F1925300A5D00D2567A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57BB1F1A25300A5D00D2567A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BB1F1C25300A5D00D2567A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07FC411874AF68ABADDFA8D /* Pods-TrillDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA4BR4TM7G;
+				INFOPLIST_FILE = TrillDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.test.TikDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57BB1F1D25300A5D00D2567A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5D3AD8214C0FF258A1F514 /* Pods-TrillDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA4BR4TM7G;
+				INFOPLIST_FILE = TrillDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.test.TikDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BB1F0225300A5B00D2567A /* Build configuration list for PBXProject "TrillDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BB1F1925300A5D00D2567A /* Debug */,
+				57BB1F1A25300A5D00D2567A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BB1F1B25300A5D00D2567A /* Build configuration list for PBXNativeTarget "TrillDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BB1F1C25300A5D00D2567A /* Debug */,
+				57BB1F1D25300A5D00D2567A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BB1EFF25300A5B00D2567A /* Project object */;
+}
